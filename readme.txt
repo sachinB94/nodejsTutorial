@@ -1,4 +1,4 @@
-This is my an update to nodejsTutorial which can be found here https://github.com/sachinB94/nodejsTutorial .
+This is an update to nodejsTutorial which can be found here https://github.com/sachinB94/nodejsTutorial
 
 INSTRUCTIONS :
 
