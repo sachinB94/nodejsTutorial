@@ -1,0 +1,156 @@
+body {
+	width: 80%;
+	margin-left: 10%;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	background-color: #0f4;
+}
+
+body input {
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+#indexMain {
+	width: 100%;
+	padding: 30px 30px;
+	text-align: center;
+}
+
+#indexNodejs {
+	border-radius: 20px;
+	border: 1px solid black;
+	height: 140px;
+	width: 35%;
+	padding-top: 110px;
+	font-size: 25px;
+	background-color: #BAB6F6;
+	box-shadow: 5px 5px 5px #555;
+	margin-left: 32.5%;
+	margin-top: 40px;
+}
+
+#indexNodejs :hover{
+	box-shadow: none;
+}
+
+.showError {
+	font-size: 15px;
+	color: #f00;
+}
+
+.hideIt {
+	visibility: hidden;
+	position: absolute;
+}
+
+#topBlock {
+	color: #0a0;
+	height: 130px;
+	border-top: 2px solid #0a4;
+	border-left: 2px solid #0a4;
+	border-right: 2px solid #0a4;
+	background-color: #BAB6F6;
+	box-shadow: 5px 5px 5px #0D0B26;
+}
+
+#nameHead {
+	display: block;
+	float: left;
+	font-size: 50px;
+	margin-top: 30px;
+	margin-left: 20px;
+}
+
+#topBlock input {
+	color: #0a0;
+	background-color: #edf0f5;
+	float: right;
+	border-radius: 5px;
+	width: 9%;
+	height: 50px;
+	margin-top: 40px;
+	margin-right: 20px;
+}
+
+.tute{
+	margin-top: 20px;
+	background-color: #afa;
+	border-radius: 25px;
+	padding: 10px 10px;
+	width: 100%;
+}
+
+.tute .head {
+	font-size: 35px;
+	color: #0a0;
+	font-weight: 10;
+}
+
+.tute .description {
+	font-size: 20px;
+}
+
+.improveTuteButton {
+	background-color: #ccc;
+	border-radius: 10px;
+	padding: 5px 5px 5px 5px;
+	text-decoration: none;
+	box-shadow: 3px 3px 3px #888888;
+	float: right;
+}
+
+.improveTuteButton:hover {
+	box-shadow: none;
+}
+
+#addTuteBlock {
+	position: absolute;
+	top: 100px;
+	right: 10%;
+	width: 14%;
+	height: 270px;
+	background-color: #ccc;
+	padding: 10px 10px;
+	border-radius: 15px;
+	box-shadow: 10px 10px 5px #888888;
+}
+
+#addTuteBlock input,textarea{
+	border-radius: 15px;
+	width: 90%;
+}
+
+#improveTuteBlock {
+	float: right;
+	width: 25%;
+	background-color: #BAB6F6;
+	margin-top: 90px;
+	border-radius: 15px;
+	padding: 10px 10px;
+	box-shadow: 10px 10px 5px #888888;
+}
+
+#improveTuteBlock input,textarea{
+	width: 90%;
+	border-radius: 15px;
+}
+
+#tuteDisplay {
+	font-size: 45px;
+}
+
+#tuteDisplayBlock {
+	background-color: #BAB6F6;
+	width: 66%;
+	margin-top: 20px;
+	border-radius: 25px;
+	padding: 10px 10px;
+}
+
+#tuteDisplayBlock .head {
+	font-size: 35px;
+	color: #0a0;
+}
+
+#tuteDisplayBlock .description {
+	font-size: 20px;
+}
