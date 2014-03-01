@@ -28,6 +28,11 @@ body input {
 	margin-top: 40px;
 }
 
+#indexNodejs:hover {
+	box-shadow: none;
+	cursor: pointer;
+}
+
 #indexNodejs :hover{
 	box-shadow: none;
 }
@@ -49,7 +54,7 @@ body input {
 	border-left: 2px solid #0a4;
 	border-right: 2px solid #0a4;
 	background-color: #BAB6F6;
-	box-shadow: 5px 5px 5px #0D0B26;
+	box-shadow: 5px 5px 5px #0a0;
 }
 
 #nameHead {
@@ -69,6 +74,12 @@ body input {
 	height: 50px;
 	margin-top: 40px;
 	margin-right: 20px;
+	box-shadow: 2px 2px 2px #0a0;
+}
+
+#topBlock input:hover {
+	cursor: pointer;
+	box-shadow: none;
 }
 
 .tute{
@@ -91,10 +102,11 @@ body input {
 
 .improveTuteButton {
 	background-color: #ccc;
+	color: #0a0;
 	border-radius: 10px;
 	padding: 5px 5px 5px 5px;
 	text-decoration: none;
-	box-shadow: 3px 3px 3px #888888;
+	box-shadow: 3px 3px 3px #0a0;
 	float: right;
 }
 
@@ -104,14 +116,15 @@ body input {
 
 #addTuteBlock {
 	position: absolute;
+	color: #0a0;
 	top: 100px;
 	right: 10%;
 	width: 14%;
 	height: 270px;
-	background-color: #ccc;
+	background-color: #bbb;
 	padding: 10px 10px;
 	border-radius: 15px;
-	box-shadow: 10px 10px 5px #888888;
+	box-shadow: 10px 10px 5px #0a0;
 }
 
 #addTuteBlock input,textarea{
@@ -120,13 +133,14 @@ body input {
 }
 
 #improveTuteBlock {
+	color: #0a0;
 	float: right;
 	width: 25%;
-	background-color: #BAB6F6;
+	background-color: #aeaeae;
 	margin-top: 90px;
 	border-radius: 15px;
 	padding: 10px 10px;
-	box-shadow: 10px 10px 5px #888888;
+	box-shadow: 10px 10px 5px #0a0;
 }
 
 #improveTuteBlock input,textarea{
@@ -139,7 +153,7 @@ body input {
 }
 
 #tuteDisplayBlock {
-	background-color: #BAB6F6;
+	background-color: #afa;
 	width: 66%;
 	margin-top: 20px;
 	border-radius: 25px;

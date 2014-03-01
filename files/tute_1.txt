@@ -1,0 +1,4 @@
+<a href="http:\\nodejs.org">Node.js</a> is a JavaScript interpreter that runs in a server environment and gives us the ability to run JavaScript code directly on the server (i.e. outside of a browser) just like we can run server side code in other languages like PHP, Python, Ruby, C#, or Java.
+<br />
+<br />
+Node.js is based on the JavaScript engine that Google wrote and uses for the Chrome browser. The author of Node.js, Ryan Dahl, took this JavaScript engine (called V8) and repurposed it so that it can run in a server environment. Ryan also added some features that are important when running on a server, for example, the ability to read and write from the file system and the ability to receive and send HTTP requests.

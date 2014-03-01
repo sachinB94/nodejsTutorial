@@ -1,0 +1,31 @@
+The goal of this post is to show how to use Node.js for web development, so let's write a simple program to process web requests. The following program is a web server that will return "hello world" to the browser for any request to http://localhost:3000
+<br />
+<br />
+<div style="border:1px solid black;border-radius:10px;width:50%;margin-left:20%;padding-left:20px;background-color:#fff;">
+var http = require("http");<br />
+var port = 3000;<br />
+var serverUrl = "localhost";<br />
+<br />
+var server = http.createServer(function(req, res) {<br />
+<br />
+  console.log("Request: " + req.url);<br />
+  <br />
+  var now = new Date();<br />
+  var html = "Hello World, the time is " + now + ".";<br />
+  res.end(html);<br />
+<br />
+});<br />
+<br />
+console.log("Listening at " + serverUrl + ":" + port);<br />
+server.listen(port, serverUrl);<br />
+</div>
+<br />
+<br />
+If we save this program as webserver1.js we could run it from the console with node webserver1.js. If we launch our browser and point it to http://localhost:3000/somepage.html we should see something like this:
+<br />
+<br />
+<div style="border:1px solid black;border-radius:10px;width:50%;margin-left:20%;padding-left:20px;background-color:#fff;">
+$node webserver1.js<br />
+Listening at localhost:3000<br />
+Request: /somepage.html
+</div>

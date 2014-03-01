@@ -72,8 +72,6 @@ function checkAddForm() {
 		var space = spacePostion != -1;
 		var dotAtRel = $("#email").val().length-dotPosition != 3 && $("#email").val().length-dotPosition != 4;
 		
-		alert(duplicateAt+" "+empty+" "+space+" "+dotAtRel)
-
 		if (duplicateAt || empty || space || dotAtRel) {
 			errorField.push("email");
 		}

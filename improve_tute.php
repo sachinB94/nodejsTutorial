@@ -28,11 +28,17 @@ $tute = mysqli_fetch_assoc($result);
 
 ?>
 
-<span id="tuteDisplay">Tute you selected...</span>
-<div id="tuteDisplayBlock">
-	<span class="head"><?php echo $tute['head']; ?></span> <br /> <br />
-	<p class="description"><?php echo $tute['description']; ?></p>
-</div>
+<?php $file = $_SERVER['DOCUMENT_ROOT'] . "/nodejs_tutorial/files"; ?>
+
+	<?php $fopen = fopen($file ."/". $tute['description'] ,"r") or exit($file ."/". $tute['description'] . "\""); ?>
+
+	<div id="tuteDisplayBlock">
+		<span class="head"><u><?php echo $tute["head"]; ?></u></span><br />
+		<p class="description"><?php echo fread($fopen,filesize($file ."/". $tute['description'])); ?></p>
+	</div>
+
+	<?php fclose($fopen); ?>
+	
 
 <?php
 include("head_section_close.php");
