@@ -1,4 +1,6 @@
-This is an update to nodejsTutorial which can be found here https://github.com/sachinB94/nodejsTutorial
+This is my first upload on github
+
+Just a test site... Nothing special
 
 INSTRUCTIONS :
 
